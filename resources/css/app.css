@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content-window {
+    @apply bg-base-200 shadow-lg sm:rounded-lg p-6 mb-5 last:mb-0 border-y sm:border border-base-300;
+}
+
+.content-window .content-window-header {
+    @apply font-semibold text-xl leading-tight text-base-content border-b border-base-content/30 pb-2 mb-2;
+}
+
+.content-window h1 {
+    @apply text-2xl tracking-wider font-semibold;
+}
+
+.content-window h2 {
+    @apply text-xl tracking-wider font-semibold;
+}
+
+.content-window h3 {
+    @apply text-lg tracking-wider font-semibold;
+}
